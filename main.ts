@@ -1,4 +1,4 @@
-import { Imdb } from './imdb';
+import { Imdb } from './imdbClass';
 import { Movie } from "./movie";
 
 let pelicula1 = new Movie('Capitana Marvel',2020,'Estados Unidos','accion');
