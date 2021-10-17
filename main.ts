@@ -28,4 +28,7 @@ let pelicula3 = new Movie('Torrente5',2015,'España','comedia');
 let pelicula4 = new Movie('Me quiero comer tu pancreas',2017,'Japon','romantica');
 
 let imdb1 = new Imdb([pelicula2,pelicula3,pelicula4])
-console.log(imdb1);
+//console.log(imdb1);
+
+imdb1.escribirEnFicheroJSON('prueba');
+imdb1.obtenerInstanciaIMDB('prueba');
